@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4d4545;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.welcome-note {
+    color: white;
+}
+
+.nav {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-about-us,
+.p-services,
+.p-contact-us {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+}
+
+.p-about-us:hover, .p-about-us:focus,
+.p-services:hover, .p-services:focus,
+.p-contact-us:hover, .p-contact-us:focus {
+    text-decoration: underline;
+}

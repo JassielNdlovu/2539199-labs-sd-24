@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    background-color: #4d4545;
+    justify-content: center;
+}
+
+.footer-note {
+    color: white;
+}
